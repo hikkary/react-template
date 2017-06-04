@@ -1,0 +1,35 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "A react Basic Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec 'babel-node ./index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "eslint": "^3.19.0",
+    "express": "^4.15.3",
+    "express-jwt": "^5.3.0",
+    "nodemon": "^1.11.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "latest",
+        {
+          "modules": false
+        }
+      ],
+      "stage-2"
+    ]
+  }
+}
