@@ -1,6 +1,6 @@
 
 const createAccount = (req, res) => {
-	res.send('user registered')
+	res.send(req.body.username)
 }
 
 export default createAccount;
